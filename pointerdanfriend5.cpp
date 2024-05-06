@@ -5,7 +5,7 @@ class pelajar;
 class manusia
 {
 public:
-    void showNilaipelajar(pelajar &a);
+    void showNilaiPelajar(pelajar &x);
 };
 
 class pelajar
@@ -13,6 +13,6 @@ class pelajar
 private:
     int nilai;
 public: 
-    pelajar() {nilai = 100}
-    friend void manusia::showNilaiPelajar(pelajar &a);
+    pelajar() {nilai = 100; }
+    friend void manusia::showNilaiPelajar(pelajar &x);
 };
