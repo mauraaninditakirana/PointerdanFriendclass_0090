@@ -13,7 +13,7 @@ class mahasiswa{
     mahasiswa mhs{1};
     mhs.showNim();
 
-    mahasiswa &refmhs = mhs;
+    mahasiswa &refMhs = mhs;
     refMhs.nim = 2;
     mhs.showNim();
 
